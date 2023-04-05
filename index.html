@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Kitle İndeksi Hesaplama</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Open+Sans:400,600,700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="container">
+      <h1>Kitle İndeksi Hesaplama</h1>
+      <form id="form">
+        <label for="boy">Boy (cm):</label>
+        <input
+          type="number"
+          id="boy"
+          name="boy"
+          required
+          placeholder="Örn: 175"
+        />
+        <label for="kilo">Kilo (kg):</label>
+        <input
+          type="number"
+          id="kilo"
+          name="kilo"
+          required
+          placeholder="Örn: 75"
+        />
+        <input type="submit" value="Hesapla" />
+      </form>
+      <div id="sonuc"></div>
+    </div>
+    <div class="bilgilendirme">
+      <p>
+        Bu hesaplayıcı, vücut kitle indeksinizi ölçerek sağlık durumunuz
+        hakkında genel bir bilgi sağlar. Ancak kesin bir teşhis için bir doktora
+        danışmanız gerekmektedir.
+      </p>
+      <p>
+        Vücut kitle indeksi (VKİ), kilonun boyun metre cinsinden karesine
+        bölünmesiyle elde edilen bir ölçüttür. VKİ değerlerine göre aşağıdaki
+        sınıflandırmalar yapılabilir:
+      </p>
+      <ul>
+        <li>VKİ 18.5'ten düşükse: Zayıf</li>
+        <li>VKİ 18.5 ile 24.9 arasındaysa: Normal</li>
+        <li>VKİ 25 ile 29.9 arasındaysa: Hafif Kilolu</li>
+        <li>VKİ 30 ile 34.9 arasındaysa: 1. Derece Obez</li>
+        <li>VKİ 35 ile 39.9 arasındaysa: 2. Derece Obez</li>
+        <li>VKİ 40'tan yüksekse: 3. Derece Obez</li>
+      </ul>
+      <p>
+        Bu sınıflandırmalar, genel bir bilgi sağlamak için kullanılabilir.
+        Ancak, kişinin yaş, cinsiyet, kas kütlesi gibi faktörler de dikkate
+        alınarak daha kesin bir değerlendirme yapılması gerekmektedir.
+      </p>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>

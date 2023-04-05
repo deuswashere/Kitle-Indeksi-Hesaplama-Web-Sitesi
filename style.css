@@ -1,0 +1,106 @@
+body {
+  font-family: "Open Sans", sans-serif;
+  background-color: #e9ecef;
+}
+
+.container {
+  max-width: 500px;
+  margin: 0 auto;
+  background-color: #ffffff;
+  border-radius: 5px;
+  box-shadow: 0px 0px 15px 1px rgba(0, 0, 0, 0.2);
+  padding: 30px;
+  text-align: center;
+}
+
+h1 {
+  font-weight: 700;
+  font-size: 30px;
+  color: #333333;
+  margin-bottom: 20px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+label {
+  font-weight: 600;
+  font-size: 18px;
+  color: #333333;
+  margin-bottom: 10px;
+}
+
+input[type="number"] {
+  margin-bottom: 20px;
+  padding: 10px 15px;
+  width: 100%;
+  border: none;
+  border-radius: 5px;
+  background-color: #f0f0f0;
+  font-size: 16px;
+}
+
+input[type="submit"] {
+  background-color: #27e1c1;
+  border: none;
+  color: #ffffff;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 18px;
+  margin-top: 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease-in-out;
+}
+
+input[type="submit"]:hover {
+  background-color: #0ea293;
+}
+
+#sonuc {
+  margin-top: 30px;
+  font-size: 24px;
+  font-weight: 700;
+  color: #333333;
+}
+.bilgilendirme {
+  background-color: #e3e3e3;
+  border: 1px solid #2f0f5d;
+  border-radius: 5px;
+  padding: 20px;
+  margin-bottom: 20px;
+  font-size: 16px;
+  line-height: 1.5;
+  text-align: justify;
+  margin-top: 20px;
+}
+
+.bilgilendirme h2 {
+  color: #2f0f5d;
+  font-size: 20px;
+  margin-top: 0;
+}
+
+.bilgilendirme p:first-of-type {
+  margin-top: 0;
+}
+
+.bilgilendirme ul {
+  list-style-type: disc;
+  margin-left: 20px;
+  margin-top: 10px;
+}
+
+.bilgilendirme li {
+  margin-bottom: 5px;
+}
+
+.bilgilendirme p:last-of-type {
+  margin-bottom: 0;
+}
